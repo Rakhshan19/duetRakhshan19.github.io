@@ -134,7 +134,7 @@ setInterval(Score,800);
 function drawscore()
 {
    ctx.font = '24px Arial';
-  ctx.textAl
+  ctx.textStyle = "#0095DD";
   ctx.fillText("Score: " + score, 8, 25);
 }
 
